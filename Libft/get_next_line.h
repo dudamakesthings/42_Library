@@ -6,7 +6,7 @@
 /*   By: edribeir <edribeir@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/12/07 10:42:46 by edribeir      #+#    #+#                 */
-/*   Updated: 2023/12/21 15:45:17 by edribeir      ########   odam.nl         */
+/*   Updated: 2024/02/05 14:50:52 by edribeir      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <string.h>
+# include "libft.h"
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 10
@@ -22,7 +23,6 @@
 
 size_t	get_length(const char *str);
 char	*combine_strs(char *p_line, char *buf);
-char	*ft_strchr(char *str, int ch);
 char	*get_next_line(int fd);
 
 #endif

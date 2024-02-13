@@ -6,7 +6,7 @@
 /*   By: edribeir <edribeir@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/10/24 12:31:26 by edribeir      #+#    #+#                 */
-/*   Updated: 2024/01/02 14:48:32 by edribeir      ########   odam.nl         */
+/*   Updated: 2024/02/05 14:46:36 by edribeir      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,5 +84,6 @@ void	*ft_calloc(size_t nitems, size_t sizeitem);
 // Math functions
 char	*ft_itoa(int n);
 int		ft_atoi(const char *str);
+int		ft_atol(const char *str);
 
 #endif
